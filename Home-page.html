@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alphpool Miner Page</title>
+   
+   
+</head>
+<body>
+<div class="container">
+    <div>
+        <div class="head_text">
+            <h1>Welcome, let's get started!</h1>
+        </div>
+        <p>Pool hashrate: <b><span id="pool_hashrate">loading..</span></b></p>
+        <p>Profit per GH: <b><span id="pool_profit">loading..</span></b> ALPH ~ <b><span id="pool_profit_usd">loading..</span></b> USD</p>
+        <p>24h Blocks: <b><span id="24h_blocks">loading..</span></b></p>
+        <p>Latest Block at:: <b><span id="latest_block_at">loading..</span></b></p>
+        <p>Hosts:</p>
+        <ul>
+        
+            
+            <li><b>stratum.alphpool.net:20032</b></li>
+            
+        </ul>
+      
+        <p>Fee <b>0.5%</b></a></p>
+        
+        </p>
+        <p>Discord: <a href="https://discord.gg/umQyRaZeWB"></a>
+        </p>
+    </div>
+</div>
+</body>
+<body>
+    <div class="container">
+        <div class="center_of_screen">
+            <form id="wallet-form">
+                <input type="text" id="wallet-input" placeholder="Wallet">
+                <button button "submit" class="show_button" id="show">Show</button>
+            </form>
+            <div id="stats" class="hidden">
+                <p>Your balance: <b><span id="balance"></span></b></p>
+                <p>Your hashrate 1h/24h: <b><span id="my_hashrate_1h"></span></b> MH/s / <b><span
+                        id="my_hashrate_24h"></span></b> MH/s</p>
+                <p>Your payouts 1h/24h: <b><span id="my_payouts_1h"></span></b> / <b><span id="my_payouts_24h"></span></b>
+                </p>
+                <p>Min payout: <b>1 coin</b>. Payouts run <b>Daily </b>. Pool fee: <b>0.5%</b></p>
+            </div>
+        </div>
+    </div>
+    </body>
+<script src="main.js"></script>
+<script src="stats.js"></script>
+</html>
